@@ -31,7 +31,7 @@ namespace DevBuildLab10_18
             {
                 if (userInput == 1 && MoviesList[i].Category.Contains("animated"))
                 {
-                    
+
                     Console.WriteLine(MoviesList[i].Name);
                     Console.WriteLine("");
                 }
@@ -49,6 +49,11 @@ namespace DevBuildLab10_18
                 {
                     Console.WriteLine(MoviesList[i].Name);
                     Console.WriteLine("");
+                }
+                else
+                {
+                    Console.WriteLine("That is not a valid response.  Please select \"1\", \"2\", \"3\" or \"4\".\n");
+                    break;
                 }
 
             }
